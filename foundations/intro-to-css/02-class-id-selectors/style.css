@@ -1,0 +1,17 @@
+/* style.css */
+.oddnmbln {
+  background-color: pink;
+  font-family: Verdana, DejaVu Sans, sans-serif;
+}
+#scndln {
+  font-size: 36px;
+  color: blue;
+}
+#thrdln {
+  font-size: 24px;
+}
+#frthln {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: lightgreen;
+}
