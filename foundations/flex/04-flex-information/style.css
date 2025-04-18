@@ -6,10 +6,16 @@ img {
   width: 100px;
   height: 100px;
 }
+.list{
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .title {
+  display: flex;
   font-size: 36px;
   font-weight: 900;
+  justify-content: center;
 }
 
 /* do not edit this footer */
