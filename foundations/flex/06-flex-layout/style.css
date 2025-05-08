@@ -25,17 +25,31 @@ input {
   width: 400px;
 }
 
+ul {
+  list-style: none;
+}
+
 .header {
   display: flex;
   justify-content: row;
+  justify-content: space-around;
 }
 
 .left-links {
 	display: flex;
 	justify-content: row;
+	justify-content: space-evenly;
+	gap: 10px;
 }
 
 .right-links {
 	display: flex;
 	justify-content: row;
+	justify-content: space-evenly;
+	gap: 10px;
+}
+#toplogo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
