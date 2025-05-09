@@ -29,25 +29,49 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
 .header {
   display: flex;
   justify-content: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .left-links {
 	display: flex;
 	justify-content: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	gap: 10px;
 }
 
 .right-links {
 	display: flex;
 	justify-content: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	gap: 10px;
 }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: row;
+  justify-content: space-between;
+  gap: 1000px;
+  background-color: lightgray;
+}
+
+.content {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 #toplogo {
 	display: flex;
 	justify-content: center;
