@@ -16,6 +16,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 120px;
 }
 
 input {
@@ -51,15 +54,13 @@ a {
 	justify-content: row;
 	justify-content: space-between;
 	gap: 10px;
+  padding-right: 30px;
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
   display: flex;
   justify-content: row;
   justify-content: space-between;
-  gap: 1000px;
   background-color: lightgray;
 }
 
